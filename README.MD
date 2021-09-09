@@ -9,6 +9,10 @@ View the GitHub project [here](https://github.com/Nuix/Export-Metadata-Tables) o
 
 This script provides a way to generate PDFs, HTML files and Text files with a listing of metadata for items.
 
+![image](https://user-images.githubusercontent.com/11775738/132750261-fdabe247-ee69-468e-bb15-916ae6740ad6.png)
+
+![image](https://user-images.githubusercontent.com/11775738/132750358-b46585c5-795f-448c-97c2-7acb383eca8e.png)
+
 # Getting Started
 
 ## Setup
