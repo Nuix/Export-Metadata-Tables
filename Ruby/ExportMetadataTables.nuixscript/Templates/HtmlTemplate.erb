@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Metadata View</title>
+	<meta name="generator" content="Nuix"/>
+<style type="text/css">
+body { font-family: 'Arial Unicode MS', sans-serif; font-size: <%= data["font_size"] %>pt; }
+table { width: 100%; border-collapse: collapse; }
+td, th { border: 0.5pt solid rgb(240,240,240); }
+th { text-align: left; background-color: rgb(240,240,240); }
+</style>
+</head>
+<body>
+	<h1><%= CGI.escapeHTML(item.getLocalisedName) %></h1>
+
+	<table>
+		<col width="30%"/>
+		<col width="70%"/>
+		<% data["profile"].each do |field,value| %>
+		<tr>
+			<th><%= CGI.escapeHTML(field) %></th>
+			<td><%= CGI.escapeHTML(value) %></td>
+		</tr>
+		<% end %>
+	</table>
+</body>
+</html>
