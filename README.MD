@@ -20,7 +20,7 @@ Begin by downloading the latest release of this code.  Extract the contents of t
 
 # Usage
 
-Select some items in Nuix to export.  Then enable the types of files you would like produced (PDF, HTML, TXT).  For each you can provide a path template to customize the folder structure and file naming of each.
+Select some items in Nuix to export.  Then enable the types of files you would like produced (PDF, HTML, TXT).  For each you can provide a path template to customize the folder structure and file naming of each.  For a list of supported placeholders, see [Help](https://github.com/Nuix/Export-Metadata-Tables/blob/main/Ruby/ExportMetadataTables.nuixscript/Help.md) (included with script and accessible via script's help menu item).
 
 # Cloning this Repository
 
